@@ -4,3 +4,5 @@ node_modules/
 *.log
 dist/
 build/
+out/
+software-services-design/out/
