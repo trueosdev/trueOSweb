@@ -13,7 +13,7 @@ export default function Hero() {
   return (
     <section className="relative min-h-[calc(100vh-64px)] flex items-center justify-center px-4 py-20">
       <div className="max-w-6xl mx-auto w-full">
-        <div className="space-y-10 max-w-5xl">
+        <div className="space-y-10 max-w-5xl mx-auto">
           <div className="flex flex-col items-center justify-center gap-8">
             <img src="/true-logo.svg" alt="trueOS Logo" className="h-32 md:h-40 lg:h-48 w-auto" />
 
