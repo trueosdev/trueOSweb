@@ -25,7 +25,7 @@ export default function Team() {
     <section className="py-32 md:py-40 px-4 bg-muted/20">
       <div className="max-w-6xl mx-auto">
         <div className="mb-20 space-y-4">
-          <h2 className="text-6xl md:text-7xl font-semibold text-foreground text-balance leading-tight">Our team</h2>
+          <h2 className="text-6xl md:text-7xl font-semibold text-foreground text-balance leading-tight text-center">Our Team</h2>
           <p className="text-lg text-muted-foreground max-w-2xl font-light leading-relaxed">
             Full-stack expertise covering every layer of your application
           </p>

@@ -40,7 +40,7 @@ export default function Features() {
     <section id="capabilities" className="py-32 md:py-40 px-4 bg-background">
       <div className="max-w-6xl mx-auto">
         <div className="mb-20 space-y-4">
-          <h2 className="text-6xl md:text-7xl font-semibold text-foreground text-balance leading-tight">
+          <h2 className="text-6xl md:text-7xl font-semibold text-foreground text-balance leading-tight text-center">
             Core Capabilities
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl font-light leading-relaxed">
