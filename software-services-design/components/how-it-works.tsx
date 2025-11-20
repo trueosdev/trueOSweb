@@ -8,8 +8,8 @@ export default function HowItWorks() {
           <h2 className="text-6xl md:text-7xl font-semibold text-foreground text-balance leading-tight text-center">
             How trueOS Works
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl font-light leading-relaxed">
-            Contract-based engineering with a single hourly rate
+          <p className="text-lg text-muted-foreground max-w-2xl font-light leading-relaxed text-center">
+            Contract based engineering with a single hourly rate
           </p>
         </div>
 
