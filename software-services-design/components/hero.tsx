@@ -124,7 +124,7 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="pt-20 flex flex-wrap gap-12 md:gap-16">
+          <div className="pt-20 flex flex-wrap justify-center md:justify-start gap-12 md:gap-16">
             <div className="min-w-[200px]">
               <div className="text-5xl md:text-6xl font-semibold text-foreground">Full Stack</div>
               <div className="text-sm text-muted-foreground font-normal mt-2 text-center">Design to Deployment</div>
