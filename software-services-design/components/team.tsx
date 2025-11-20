@@ -26,7 +26,7 @@ export default function Team() {
       <div className="max-w-6xl mx-auto">
         <div className="mb-20 space-y-4">
           <h2 className="text-6xl md:text-7xl font-semibold text-foreground text-balance leading-tight text-center">Our Team</h2>
-          <p className="text-lg text-muted-foreground max-w-2xl font-light leading-relaxed">
+          <p className="text-lg text-muted-foreground max-w-2xl font-light leading-relaxed text-center mx-auto">
             Full-stack expertise covering every layer of your application
           </p>
         </div>

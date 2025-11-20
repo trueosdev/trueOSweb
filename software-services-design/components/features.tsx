@@ -43,7 +43,7 @@ export default function Features() {
           <h2 className="text-6xl md:text-7xl font-semibold text-foreground text-balance leading-tight text-center">
             Core Capabilities
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl font-light leading-relaxed">
+          <p className="text-lg text-muted-foreground max-w-2xl font-light leading-relaxed text-center mx-auto">
             Enterprise-grade development at startup speed
           </p>
         </div>

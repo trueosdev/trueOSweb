@@ -125,15 +125,15 @@ export default function Hero() {
           </div>
 
           <div className="pt-20 flex flex-wrap gap-12 md:gap-16">
-            <div>
+            <div className="min-w-[200px]">
               <div className="text-5xl md:text-6xl font-semibold text-foreground">Full Stack</div>
               <div className="text-sm text-muted-foreground font-normal mt-2">Design to Deployment</div>
             </div>
-            <div>
+            <div className="min-w-[200px]">
               <div className="text-5xl md:text-6xl font-semibold text-foreground">Single Rate</div>
               <div className="text-sm text-muted-foreground font-normal mt-2">Flat Hour Pricing</div>
             </div>
-            <div>
+            <div className="min-w-[200px]">
               <div className="text-5xl md:text-6xl font-semibold text-foreground">Startup</div>
               <div className="text-sm text-muted-foreground font-normal mt-2">Agile & Flexible</div>
             </div>
