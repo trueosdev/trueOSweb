@@ -15,7 +15,7 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto w-full">
         <div className="space-y-10 max-w-5xl mx-auto">
           <div className="flex flex-col items-center justify-center gap-8">
-            <img src="/true-logo.svg" alt="trueOS Logo" className="h-32 md:h-40 lg:h-48 w-auto" />
+            <img src="/true-logo.svg" alt="trueOS Logo" className="w-auto h-24 md:h-32 lg:h-40" />
 
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl leading-relaxed text-center font-normal">
               Specialized contractor team providing high-speed deployment of custom business platforms, including CRMs, internal portals, reporting systems, and full-stack applications. We deliver complete, production-ready software systems on a contract basis.
@@ -26,9 +26,7 @@ export default function Hero() {
                 <DialogTrigger asChild>
                   <Button
                     size="lg"
-                    variant="outline"
-                    className="border-2 border-foreground hover:bg-foreground/5 font-semibold rounded-full px-8 bg-transparent"
-                  >
+                    variant="outline">
                     Contact Team
                   </Button>
                 </DialogTrigger>

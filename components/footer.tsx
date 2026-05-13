@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           <div className="flex flex-col items-start">
-            <img src="/true-logo.svg" alt="trueOS Logo" className="w-14 h-8 mb-4" />
+            <img src="/true-logo.svg" alt="trueOS Logo" className="w-auto h-6 mb-4" />
             <p className="text-sm text-muted-foreground text-left">Contract-based software engineering for custom business platforms.</p>
           </div>
           

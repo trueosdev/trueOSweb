@@ -28,9 +28,7 @@ export default function CTA() {
             <DialogTrigger asChild>
               <Button
                 size="lg"
-                variant="outline"
-                className="text-foreground border-foreground hover:bg-foreground/10 bg-transparent"
-              >
+                variant="outline">
                 Contact Sales
               </Button>
             </DialogTrigger>

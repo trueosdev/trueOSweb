@@ -1,10 +1,8 @@
 'use client'
 
-import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog'
 import { useState } from 'react'
-import { useToast } from '@/hooks/use-toast'
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
@@ -12,10 +10,20 @@ export default function Navigation() {
   const [isSuccess, setIsSuccess] = useState(false)
 
   return (
-    <nav className="sticky top-0 z-50 bg-background/80 backdrop-blur-sm border-b border-border">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+    <nav className="relative sticky top-0 z-50 border-b border-border">
+      <div
+        aria-hidden
+        className="nav-pixel-backdrop pointer-events-none absolute inset-0 bg-trueblack/94"
+      />
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <img src="/t-logo.svg" alt="trueOS Logo" className="w-4 h-7" />
+          <img
+            src="/t-logo.svg"
+            alt="trueOS Logo"
+            className="h-8 w-8 shrink-0 object-contain"
+            width={32}
+            height={32}
+          />
         </div>
         
 
