@@ -5,8 +5,14 @@ import './globals.css'
 
 const NAV_PIXEL_POOL_KERNEL = Array.from({ length: 12 * 12 }, () => '1').join(' ')
 
-const _geist = Geist({ subsets: ["latin"] });
-const _geistMono = Geist_Mono({ subsets: ["latin"] });
+const geistSans = Geist({
+  subsets: ['latin'],
+  variable: '--font-geist-sans',
+})
+const geistMono = Geist_Mono({
+  subsets: ['latin'],
+  variable: '--font-geist-mono',
+})
 
 export const metadata: Metadata = {
   title: 'trueOS',
@@ -24,8 +30,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body className={`font-sans antialiased`}>
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className="font-sans antialiased">
         {/* SVG filter: pool backdrop into blocks + quantize (mosaic “pixel glass”, not a CSS grid) */}
         <svg
           xmlns="http://www.w3.org/2000/svg"

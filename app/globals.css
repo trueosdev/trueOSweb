@@ -5,7 +5,7 @@
 @custom-variant dark (&:is(html:not(html)));
 
 :root {
-  --trueblack: #2A2727;
+  --trueblack: #181818;
   --truewhite: #ffffff;
   --truegray: #8c8c8c;
   --destructive: #ff3b30;
@@ -13,8 +13,8 @@
 }
 
 @theme inline {
-  --font-sans: "Geist", "Geist Fallback";
-  --font-mono: "Geist Mono", "Geist Mono Fallback";
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
 
   --color-trueblack: var(--trueblack);
   --color-truewhite: var(--truewhite);
